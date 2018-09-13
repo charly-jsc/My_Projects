@@ -1,0 +1,10 @@
+{% block body %}
+  <ul>
+    {% for snippet in object_list %}
+      <li></li>
+      <li>{{snippet.content}}</li>
+      <li>{{snippet.date}}</li>
+      <li>{{snippet.client_ip}}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
